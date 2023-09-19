@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+div.minimalistBlack {
+border:none;
+border-color:white;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+.divTable.minimalistBlack .divTableCell, .divTable.minimalistBlack .divTableHead {
+  padding: 5px 4px;
+  border-bottom: 1px black solid;
+}
+.divTable.minimalistBlack .divTableBody .divTableCell {
+  font-size: 13px;
+}
+.divTable.minimalistBlack .divTableHeading {
+
+  border-bottom: 3px solid #000000;
+}
+.divTable.minimalistBlack .divTableHeading .divTableHead {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+}
+.minimalistBlack .tableFootStyle {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  border-top: 3px solid #000000;
+}
+.minimalistBlack .tableFootStyle {
+  font-size: 14px;
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
